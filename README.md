@@ -1,11 +1,11 @@
 # drone_src
 ROS2 source code for drone workspace
 
-For ROS 2, the most common way to connect a Cube flight controller (running ArduPilot) is through **MAVROS** (ROS 1) or **MAVROS2** (ROS 2 version). MAVROS is the bridge between ROS and the MAVLink protocol that ArduPilot uses.
-
 ---
 
 ## Steps to Connect Cube Flight Controller with ROS 2 Humble
+
+For ROS 2, the most common way to connect a Cube flight controller (running ArduPilot) is through **MAVROS** (ROS 1) or **MAVROS2** (ROS 2 version). MAVROS is the bridge between ROS and the MAVLink protocol that ArduPilot uses.
 
 ### 1. Plug in the Cube
 
