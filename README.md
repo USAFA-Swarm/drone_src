@@ -9,7 +9,7 @@ For ROS 2, the most common way to connect a Cube flight controller (running Ardu
 
 ### 1. Plug in the Cube
 
-* Use USB from the carrier board → Ubuntu laptop.
+* Use USB from the carrier board to Raspberry Pi.
 * Run:
 
   ```bash
@@ -37,6 +37,7 @@ sudo apt install ros-humble-mavros ros-humble-mavros-extras
 MAVROS needs GeographicLib for GPS and geodesy support:
 
 ```bash
+cd ~/Download
 wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
 chmod +x install_geographiclib_datasets.sh
 sudo ./install_geographiclib_datasets.sh
